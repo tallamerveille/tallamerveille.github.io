@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Merveille's Portfolio",
   description:
-    "I am a doctoral student at INRAE - INRIA. I am a dynamic, self-starter with a strong interest in multidisciplinary collaboration. I am able to effectively integrate into new work environments thanks to my strong team spirit. I am known for my commitment and passion for research.",
+    "I am currently enrolled in a doctoral program at INRAE - INRIA. I am a dynamic, self-starter with a strong interest in multidisciplinary collaboration. I am known for my commitment and passion for research.",
   og: {
     title: "Merveille Talla Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "MerveilleTalla",
   nickname: "",
   subTitle:
-    "I am a doctoral student at INRAE - INRIA. I am a dynamic, self-starter with a strong interest in multidisciplinary collaboration. I am able to effectively integrate into new work environments thanks to my strong team spirit. I am known for my commitment and passion for research.",
+    "I am currently enrolled in a doctoral program at INRAE - INRIA. I am a dynamic, self-starter with a strong interest in multidisciplinary collaboration. I am known for my commitment and passion for research.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/tallamerveille/Merveille_Portfolio",
@@ -42,7 +42,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/tallamerveille",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -71,18 +71,18 @@ const socialMediaLinks = [
   //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
   //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   // },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/layman_brother/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -93,19 +93,20 @@ const skills = {
       skills: [
         "⚡ Development and implementation of advanced numerical algorithms",
         "⚡ Analysis and processing of complex research data",
-        "⚡ Stochastic modeling and simulations for finance and engineering",
+        // "⚡ Stochastic modeling and simulations for finance and engineering",
         "⚡ Study and resolution of fluid mechanics problems using numerical methods",
         "⚡ Scientific programming and development of computational tools",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "Matlab",
-        //   fontAwesomeClassname: "simple-icons:mathworks",
-        //   style: {
-        //     backgroundColor: "white",
-        //     color: "#0076A8"
-        //   }
-        // },
+        {
+          skillName: "Matlab",
+          imageSrc: "matlab.png",
+          // fontAwesomeClassname: "simple-icons:mathworks",
+          // style: {
+          //   backgroundColor: "white",
+          //   color: "#0076A8"
+          // }
+        },
         {
           skillName: "C++",
           fontAwesomeClassname: "logos-c-plusplus",
@@ -150,10 +151,10 @@ const skills = {
             color: "#3776AB",
           },
         },
-        // {
-        //   skillName: "Deeplearning",
-        //   imageSrc: "deeplearning_ai_logo.png",
-        // },
+        {
+          skillName: "Deeplearning",
+          imageSrc: "deeplearning_ai_logo.png",
+        },
       ],
     },
     // {
