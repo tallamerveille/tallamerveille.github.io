@@ -352,198 +352,269 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    //   {
-    //     siteName: "LeetCode",
-    //     iconifyClassname: "simple-icons:leetcode",
-    //     style: {
-    //       color: "#F79F1B",
-    //     },
-    //     profileLink: "https://leetcode.com/layman_brother/",
+    // {
+    //   siteName: "LeetCode",
+    //   iconifyClassname: "simple-icons:leetcode",
+    //   style: {
+    //     color: "#F79F1B",
     //   },
-    //   {
-    //     siteName: "HackerRank",
-    //     iconifyClassname: "simple-icons:hackerrank",
-    //     style: {
-    //       color: "#2EC866",
-    //     },
-    //     profileLink: "https://www.hackerrank.com/layman_brother",
+    //   profileLink: "https://leetcode.com/layman_brother/",
+    // },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
     //   },
-    //   {
-    //     siteName: "Codechef",
-    //     iconifyClassname: "simple-icons:codechef",
-    //     style: {
-    //       color: "#5B4638",
-    //     },
-    //     profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
     //   },
-    //   {
-    //     siteName: "Codeforces",
-    //     iconifyClassname: "simple-icons:codeforces",
-    //     style: {
-    //       color: "#1F8ACB",
-    //     },
-    //     profileLink: "http://codeforces.com/profile/layman_brother",
+    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
     //   },
-    //   {
-    //     siteName: "Hackerearth",
-    //     iconifyClassname: "simple-icons:hackerearth",
-    //     style: {
-    //       color: "#323754",
-    //     },
-    //     profileLink: "https://www.hackerearth.com/@ashutosh391",
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
     //   },
-    //   {
-    //     siteName: "Kaggle",
-    //     iconifyClassname: "simple-icons:kaggle",
-    //     style: {
-    //       color: "#20BEFF",
-    //     },
-    //     profileLink: "https://www.kaggle.com/laymanbrother",
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
     //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 
 const degrees = {
   degrees: [
     {
+      title: "University of Rennes, France | INRAE - INRIA",
+      subtitle: "PhD, Mathematical and Computer Sciences",
+      logo_path: "rennes_logo.png",
+      alt_name: "University of Rennes",
+      duration: "Oct 2023 - now",
+      descriptions: [
+        "🎯 Learning dynamic models of turbulent flows by physics-constrained diffusion models.",
+        "⚡ Turbulent flow modeling : Learn flow dynamics ucing data-driven diffusion models.",
+        "⚡ Physics constraints: Integrate physical laws to guide trainingn and ensure realism.",
+        "⚡ Fast simulations: Generate accurate, low-cost flow predictions for applications.",
+      ],
+      website_link: "https://www.univ-rennes.fr/",
+    },
+    {
       title: "University of Nantes, France",
       subtitle: "Master 2, Mathematical and Computer Sciences",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2022 - 2023",
+      logo_path: "nantes_logo.png",
+      alt_name: "University of Nantes",
+      duration: "Oct 2022 - Sept 2023",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Solid foundation in partial differential equations and stochastic calculus, used to model complex physical and random systems in both theoretical and applied contexts.",
+        "⚡ Proficient in differential geometry, with the ability to analyze curved spaces and apply geometric concepts to physics and engineering problems.",
+        "⚡ Skilled in numerical analysis for implementing and optimizing algorithms that solve real-world scientific and industrial problems.",
+        "⚡ Capable of using advanced mathematical frameworks to bridge abstract theory and practical modeling in probabilistic and dynamic environments.",
       ],
       website_link: "https://www.univ-nantes.fr/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "University of Yaoundé I, Cameroon",
+      subtitle: "Master 2, Mathematical and Computer Sciences",
+      logo_path: "univ_yaounde_logo.png",
+      alt_name: "University of Yaoundé I",
+      duration: "Sept 2019 - Jan 2021",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Strong background in numerical analysis, focused on solving complex systems through stable and efficient computational methods.",
+        "⚡ In-depth knowledge of partial differential equations, with applications in modeling physical and engineering phenomena.",
+        "⚡ Familiar with stochastic calculus tools to handle randomness in dynamic systems and simulations.",
+        "⚡ Trained in Lie groups and algebras, providing a solid mathematical framework for symmetry analysis and theoretical physics.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://uy1.uninet.cm/",
+    },
+    {
+      title: "University of Yaoundé I, Cameroon",
+      subtitle: "Master 1, Mathematical and Computer Sciences",
+      logo_path: "univ_yaounde_logo.png",
+      alt_name: "University of Yaoundé I",
+      duration: "Sept 2018 - Jul 2019",
+      descriptions: [
+        "⚡ Solid foundation in differential geometry, useful for modeling curved spaces and geometric structures.",
+        "⚡ Competent in numerical analysis for approximating solutions to complex mathematical problems.",
+        "⚡ Trained in partial differential equations, applied to physical and engineering systems.",
+        "⚡ Experience with computational tools for mathematics, bridging theory and practical implementation.",
+      ],
+      website_link: "https://uy1.uninet.cm/",
+    },
+    {
+      title: "École Normale Supérieure de Yaoundé, Cameroon",
+      subtitle:
+        "DIPES 2, Mathematical ( Higher Education Teaching Diploma (Mathematics))",
+      logo_path: "univ_yaounde_logo.png",
+      alt_name: "Ecole Normale Supérieure de Yaoundé",
+      duration: "Sept 2018 - Aug 2020",
+      descriptions: [
+        "⚡ Solid foundation in Game Theory, with focus on strategic reasoning and decision-making models.",
+        "⚡ Deep understanding of Approximation, Interpolation, and Partial Differential Equations for advanced mathematical modeling.",
+        "⚡ Solid training in education science, enhancing teaching methods and student engagement.",
+      ],
+      website_link: "https://www.ens-yde.cm/",
+    },
+    {
+      title: " Faculty of Sciences - University of Yaoundé I, Cameroon",
+      subtitle: "Licence 3, Mathematical and Computer Sciences",
+      logo_path: "univ_yaounde_logo.png",
+      alt_name: "University of Yaoundé I",
+      duration: "Sept 2017 - Jul 2018",
+      descriptions: [],
+      website_link: "https://uy1.uninet.cm/",
+    },
+    {
+      title: "École Normale Supérieure de Yaoundé, Cameroon",
+      subtitle: "DIPES 1, Mathematical",
+      logo_path: "univ_yaounde_logo.png",
+      alt_name: "Ecole Normale Supérieure de Yaoundé",
+      duration: "Sept 2015 - Aug 2018",
+      descriptions: [],
+      website_link: "https://www.ens-yde.cm/",
+    },
+    {
+      title: "Sangmélima Classical and Modern High School, Cameroon",
+      subtitle: "Baccalauréat C, Mathematics and Physical Sciences",
+      logo_path: "",
+      alt_name: "Lycée Classique et Moderne de Sangmélima",
+      duration: "Sept 2013 - Jul 2014",
+      descriptions: [],
+      website_link: "",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Machine Learning",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "stanford_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "Stanford University",
+    //   color_code: "#8C151599",
+    // },
+    // {
+    //   title: "Deep Learning",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "Data Science",
+    //   subtitle: "- Alex Aklson",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Big Data",
+    //   subtitle: "- Kim Akers",
+    //   logo_path: "microsoft_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+    //   alt_name: "Microsoft",
+    //   color_code: "#D83B0199",
+    // },
+    // {
+    //   title: "Advanced Data Science",
+    //   subtitle: "- Romeo Kienzler",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Advanced ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "DL on Tensorflow",
+    //   subtitle: "- Laurence Moroney",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "Fullstack Development",
+    //   subtitle: "- Jogesh Muppala",
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+    //   alt_name: "Coursera",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "Kuberenetes on GCP",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
