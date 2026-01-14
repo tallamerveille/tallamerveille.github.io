@@ -1,0 +1,32 @@
+// Source - https://stackoverflow.com/a
+// Posted by ArunKolhapur, modified by community. See post 'Timeline' for change history
+// Retrieved 2025-12-21, License - CC BY-SA 4.0
+
+{
+    "env": {
+        "node": true,
+        "commonjs": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2015
+    }
+}
