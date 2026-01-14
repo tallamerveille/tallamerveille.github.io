@@ -203,17 +203,6 @@ I am particularly interested in operator learning methods, physics-informed neur
 			highlights: [
 				'Understand Stokes Theorem and finds its applications',
 			]
-		},
-		{
-			title: 'Research Intern',
-			institution: 'INRIA Paris - SIERRA Team',
-			location: 'Paris, France',
-			period: 'Summer 2019',
-			description: 'Worked on optimization algorithms for variational inference. Analyzed convergence rates of stochastic gradient methods for non-convex objectives.',
-			highlights: [
-				'Implemented novel variance reduction techniques',
-				'Contributed to open-source optimization library'
-			]
 		}
 	],
 
